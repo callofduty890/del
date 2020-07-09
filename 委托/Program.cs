@@ -36,7 +36,8 @@ namespace 委托
             //执行委托
             del(randomValue);
 
-            Console.ReadKey();
+            Console.WriteLine("程序结束");
+            Console.ReadKey();//卡屏等待按钮按下
         }
     }
 }
